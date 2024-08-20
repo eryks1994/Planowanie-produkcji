@@ -1,0 +1,22 @@
+SELECT 
+`Length_1`,
+`Length_2`,
+`Length_3`,
+`Length_4`,
+`Length_5`,
+`Length_6`,
+`Length_7`,
+`Length_8`,
+`Length_9`,
+`Length_10`,
+`Length_11`,
+`Length_12`,
+`Length_13`,
+`Length_14`,
+`Length_15`,
+`Length_16`,
+`Length_17`,
+`Length_18`,
+`Length_19`,
+`Length_20`
+FROM testdatabase.element WHERE Name='${1}';

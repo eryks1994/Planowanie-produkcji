@@ -1,0 +1,117 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Data/BP PROJEKT logotyp_small.ico"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/.idea;.idea/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Data;Data/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Example;Example/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Support;Support/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Test;Test/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/venv;venv/"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "tkinter"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "tkinter.ttk"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "mysql.connector"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/BRProjekt_Repo/001_Projekty/PlanowanieProdukcji/001 Automat 4.1/30_Program/001 PC App/03_Code/001 Python/Debug;Debug/"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

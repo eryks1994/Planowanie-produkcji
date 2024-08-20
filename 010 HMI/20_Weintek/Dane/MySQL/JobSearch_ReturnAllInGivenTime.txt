@@ -1,0 +1,31 @@
+SELECT `Name`, 
+IF(DateToExecute_1 like '%2023.06.12%', `PipelineElementID_1`, ''), 
+IF(DateToExecute_2 like '%2023.06.12%', `PipelineElementID_2`, ''), 
+IF(DateToExecute_3 like '%2023.06.12%', `PipelineElementID_3`, ''), 
+IF(DateToExecute_4 like '%2023.06.12%', `PipelineElementID_4`, ''), 
+IF(DateToExecute_5 like '%2023.06.12%', `PipelineElementID_5`, ''), 
+IF(DateToExecute_6 like '%2023.06.12%', `PipelineElementID_6`, ''), 
+IF(DateToExecute_7 like '%2023.06.12%', `PipelineElementID_7`, ''), 
+IF(DateToExecute_8 like '%2023.06.12%', `PipelineElementID_8`, ''), 
+IF(DateToExecute_9 like '%2023.06.12%', `PipelineElementID_9`, ''), 
+IF(DateToExecute_10 like '%2023.06.12%', `PipelineElementID_10`, ''), 
+IF(DateToExecute_11 like '%2023.06.12%', `PipelineElementID_11`, ''), 
+IF(DateToExecute_12 like '%2023.06.12%', `PipelineElementID_12`, ''), 
+IF(DateToExecute_13 like '%2023.06.12%', `PipelineElementID_13`, ''), 
+IF(DateToExecute_14 like '%2023.06.12%', `PipelineElementID_14`, ''), 
+IF(DateToExecute_15 like '%2023.06.12%', `PipelineElementID_15`, ''), 
+IF(DateToExecute_16 like '%2023.06.12%', `PipelineElementID_16`, ''), 
+IF(DateToExecute_17 like '%2023.06.12%', `PipelineElementID_17`, ''), 
+IF(DateToExecute_18 like '%2023.06.12%', `PipelineElementID_18`, ''), 
+IF(DateToExecute_19 like '%2023.06.12%', `PipelineElementID_19`, ''), 
+IF(DateToExecute_20 like '%2023.06.12%', `PipelineElementID_20`, '')
+FROM testdatabase.job WHERE ElementCount>0 AND
+(DateToExecute_1 like '%2023.06.12%' OR DateToExecute_2 like '%2023.06.12%' OR 
+DateToExecute_3 like '%2023.06.12%' OR DateToExecute_4 like '%2023.06.12%' OR 
+DateToExecute_5 like '%2023.06.12%' OR DateToExecute_6 like '%2023.06.12%' OR 
+DateToExecute_7 like '%2023.06.12%' OR DateToExecute_8 like '%2023.06.12%' OR 
+DateToExecute_9 like '%2023.06.12%' OR DateToExecute_10 like '%2023.06.12%' OR 
+DateToExecute_11 like '%2023.06.12%' OR DateToExecute_12 like '%2023.06.12%' OR
+DateToExecute_13 like '%2023.06.12%' OR DateToExecute_14 like '%2023.06.12%' OR 
+DateToExecute_15 like '%2023.06.12%' OR DateToExecute_16 like '%2023.06.12%' OR 
+DateToExecute_17 like '%2023.06.12%')

@@ -1,0 +1,1 @@
+SELECT `Diameter` FROM testdatabase.pipe WHERE Name='${1}';

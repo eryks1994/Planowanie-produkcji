@@ -1,0 +1,1 @@
+SELECT `Name`, `Description`, `Diameter`, `Thickness`, `Length` FROM testdatabase.port WHERE Name='${1}';

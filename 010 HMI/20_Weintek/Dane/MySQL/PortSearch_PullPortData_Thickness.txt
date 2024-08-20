@@ -1,0 +1,22 @@
+SELECT `Thickness`
+FROM testdatabase.port WHERE Name IN(
+(SELECT `PortID_1` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_2` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_3` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_4` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_5` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_6` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_7` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_8` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_9` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_10` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_11` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_12` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_13` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_14` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_15` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_16` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_17` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_18` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_19` FROM testdatabase.element WHERE Name='${1}'),
+(SELECT `PortID_20` FROM testdatabase.element WHERE Name='${1}'));

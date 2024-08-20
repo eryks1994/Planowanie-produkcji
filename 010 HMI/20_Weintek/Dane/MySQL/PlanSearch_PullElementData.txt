@@ -1,0 +1,1 @@
+SELECT `PlanID`, `Name`, `Description`, `PipeLineElementID_${1}`, `Ammount_${1}`, `ElementCount` FROM testdatabase.plan WHERE Name='${2}';

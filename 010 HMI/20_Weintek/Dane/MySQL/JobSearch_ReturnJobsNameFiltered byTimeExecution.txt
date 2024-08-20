@@ -1,0 +1,11 @@
+SELECT `Name`
+FROM testdatabase.job WHERE ElementCount>0 AND
+(DateToExecute_1 like '%2023.06.12%' OR DateToExecute_2 like '%2023.06.12%' OR 
+DateToExecute_3 like '%2023.06.12%' OR DateToExecute_4 like '%2023.06.12%' OR 
+DateToExecute_5 like '%2023.06.12%' OR DateToExecute_6 like '%2023.06.12%' OR 
+DateToExecute_7 like '%2023.06.12%' OR DateToExecute_8 like '%2023.06.12%' OR 
+DateToExecute_9 like '%2023.06.12%' OR DateToExecute_10 like '%2023.06.12%' OR 
+DateToExecute_11 like '%2023.06.12%' OR DateToExecute_12 like '%2023.06.12%' OR
+DateToExecute_13 like '%2023.06.12%' OR DateToExecute_14 like '%2023.06.12%' OR 
+DateToExecute_15 like '%2023.06.12%' OR DateToExecute_16 like '%2023.06.12%' OR 
+DateToExecute_17 like '%2023.06.12%')

@@ -1,0 +1,1 @@
+SELECT `Name`, `Description`, `PipeName`, `PortID_${2}`, `Length_${2}`, `Angle_${2}`, `WeldAngle_${2}`, `ElementCount` FROM testdatabase.element WHERE Name='${1}';
